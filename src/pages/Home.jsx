@@ -13,6 +13,7 @@ import {
 } from "react-icons/fi";
 
 function Home() {
+
   const technologies = [
     "React",
     "Laravel",
@@ -49,7 +50,7 @@ function Home() {
       </div>
 
       {/* ================= MAIN CONTAINER ================= */}
-      <div className="relative mx-auto flex min-h-screen max-w-7xl items-center px-6 py-24 lg:px-8">
+      <div className="relative mx-auto flex min-h-screen max-w-7xl items-center px-6 py-5 lg:px-8">
         <div className="grid w-full items-center gap-16 lg:grid-cols-2 lg:gap-20">
 
           {/* ================= LEFT CONTENT ================= */}
@@ -73,7 +74,7 @@ function Home() {
             {/* Name */}
             <h1 className="text-5xl font-black tracking-tight sm:text-6xl lg:text-7xl">
               Chhan{" "}
-              <span className="bg-gradient-to-r from-blue-400 via-cyan-400 to-blue-500 bg-clip-text text-transparent">
+              <span className="bg-linear-to-r from-blue-400 via-cyan-400 to-blue-500 bg-clip-text text-transparent">
                 Sophal
               </span>
             </h1>
@@ -90,10 +91,10 @@ function Home() {
             {/* Description */}
             <p className="mx-auto mt-6 max-w-2xl text-base leading-8 text-gray-400 sm:text-lg lg:mx-0">
               I build modern, scalable and user-friendly web applications
-              with clean code and practical solutions using{" "}
-              <span className="font-semibold text-gray-200">
+              with clean code and practical solutions using:{" "}
+              {/* <span className="font-semibold text-gray-200">
                 React, Laravel, Spring Boot, PostgreSQL and MySQL.
-              </span>
+              </span> */}
             </p>
 
             {/* Technology Tags */}
@@ -114,7 +115,7 @@ function Home() {
               {/* Projects */}
               <Link
                 to="/projects"
-                className="group inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-blue-600 to-cyan-600 px-6 py-3.5 font-semibold shadow-lg shadow-blue-600/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-blue-600/30"
+                className="group inline-flex items-center justify-center gap-2 rounded-xl bg-linear-to-r from-blue-600 to-cyan-600 px-6 py-3.5 font-semibold shadow-lg shadow-blue-600/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-blue-600/30"
               >
                 View Projects
 
@@ -211,7 +212,7 @@ function Home() {
             <div className="relative mr-28 mb-36">
 
             {/* Gradient Border */}
-            <div className="absolute -inset-1 rounded-3xl bg-gradient-to-r from-blue-500 via-cyan-400 to-purple-500 opacity-70 blur-sm" />
+            <div className="absolute -inset-1 rounded-3xl bg-linear-to-r from-blue-500 via-cyan-400 to-purple-500 opacity-70 blur-sm" />
 
             {/* Image */}
             <div className="relative overflow-hidden rounded-3xl border border-slate-700 bg-slate-950">
@@ -252,6 +253,22 @@ function Home() {
 
                 <p className="text-sm font-semibold text-gray-200">
                     Spring Boot
+                </p>
+                </div>
+            </div>
+
+            <div className="absolute -left-8 bottom-25 hidden items-center gap-3 rounded-xl border border-slate-700 bg-slate-900/90 px-4 py-3 shadow-xl backdrop-blur-md sm:flex">
+                <div className="rounded-lg bg-purple-500/10 p-2 text-purple-400">
+                <FiServer size={20} />
+                </div>
+
+                <div>
+                <p className="text-xs text-gray-500">
+                    Backend
+                </p>
+
+                <p className="text-sm font-semibold text-gray-200">
+                    Laravel
                 </p>
                 </div>
             </div>

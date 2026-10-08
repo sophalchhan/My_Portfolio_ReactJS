@@ -56,7 +56,7 @@ const skills = [
 
 function Skills() {
   return (
-    <section className="min-h-screen bg-gray-950 px-6 py-20 text-white">
+    <section className="min-h-screen bg-gray-950 px-6 py-5 text-white">
       <div className='mx-auto max-w-7xl'>
         {/* ================= HEADER ================= */}
         <div className='mb-16 text-center'>

@@ -66,7 +66,7 @@ function Contact() {
 
 
   return (
-    <section className="min-h-screen bg-gray-950 px-6 py-20 text-white">
+    <section className="min-h-screen bg-gray-950 px-6 py-5 text-white">
       <div className='mx-auto max-w-6xl'>
         {/* Header */}
         <div className='mb-16 text-center'>
