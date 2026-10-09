@@ -176,7 +176,7 @@ function Home() {
             {/* ================= STATS ================= */}
             <div className="mt-10 flex flex-wrap justify-center gap-8 border-t border-slate-800 pt-7 lg:justify-start">
               <div>
-                <p className="text-2xl font-bold text-white">10+</p>
+                <p className="text-2xl font-bold text-white">5+</p>
                 <p className="mt-1 text-xs text-gray-500">
                   Projects
                 </p>
