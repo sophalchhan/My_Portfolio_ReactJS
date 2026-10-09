@@ -135,8 +135,8 @@ function Home() {
 
               {/* CV */}
               <a
-                href="/CV.pdf"
-                download
+                href="/Chhan%20Sophal%20CV.pdf"
+                download="Chhan_Sophal_CV.pdf"
                 className="inline-flex items-center justify-center gap-2 rounded-xl border border-slate-700 px-6 py-3.5 font-semibold text-gray-300 transition-all duration-300 hover:-translate-y-1 hover:border-cyan-500 hover:text-cyan-400"
               >
                 <FiDownload size={18} />

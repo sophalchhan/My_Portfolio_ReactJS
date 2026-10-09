@@ -21,8 +21,8 @@ const projects = [
     role: "Full Stack Developer",
     duration: "2 Months",
 
-    github: "https://github.com/yourusername/movie-management",
-    demo: "https://your-demo-url.com",
+    github: "https://github.com/sophalchhan/project_movie_java_spring_boot",
+    demo: "/public/Video/movie-demo.mp4",
 
     features: [
       "User authentication and authorization",
@@ -35,9 +35,43 @@ const projects = [
     ],
   },
 
-  // 2. E-Commerce Website
+  // 2. POS System
   {
     id: 2,
+    title: "POS Management System",
+    description:
+      "A point-of-sale management system for managing products, sales, customers and inventory with a modern dashboard.",
+
+    image: ecommerceImage,
+
+    technologies: [
+      "React",
+      "Spring Boot",
+      "PostgreSQL",
+      "Tailwind CSS",
+    ],
+
+    role: "Full Stack Developer",
+    duration: "2 Months",
+
+    github: "https://github.com/sophalchhan/pos_system_java_spring_boot",
+    demo: "/public/Video/pos_system.mp4",
+
+    features: [
+      "User authentication",
+      "Product management",
+      "Sales management",
+      "Inventory management",
+      "Customer management",
+      "Sales reports",
+      "REST API integration",
+      "Responsive dashboard",
+    ],
+  },
+
+   // 3. E-Commerce Website
+  {
+    id: 3,
     title: "E-Commerce Website",
     description:
       "A modern e-commerce application with product listing, shopping cart and responsive user interface.",
@@ -65,40 +99,6 @@ const projects = [
       "Category filtering",
       "Responsive UI",
       "REST API integration",
-    ],
-  },
-
-  // 3. POS System
-  {
-    id: 3,
-    title: "POS Management System",
-    description:
-      "A point-of-sale management system for managing products, sales, customers and inventory with a modern dashboard.",
-
-    image: ecommerceImage,
-
-    technologies: [
-      "React",
-      "Spring Boot",
-      "PostgreSQL",
-      "Tailwind CSS",
-    ],
-
-    role: "Full Stack Developer",
-    duration: "2 Months",
-
-    github: "https://github.com/yourusername/pos-system",
-    demo: "https://your-pos-demo.com",
-
-    features: [
-      "User authentication",
-      "Product management",
-      "Sales management",
-      "Inventory management",
-      "Customer management",
-      "Sales reports",
-      "REST API integration",
-      "Responsive dashboard",
     ],
   },
 
